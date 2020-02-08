@@ -15,7 +15,7 @@ def self.all
 end 
 
 def self.print_all 
-  @@all.each {x puts x}
+  @@all.each {|x| puts x}
 end
 
 def save
