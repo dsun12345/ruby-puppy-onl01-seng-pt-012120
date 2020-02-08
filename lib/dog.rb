@@ -18,5 +18,9 @@ def self.print_all
   puts @@all.join
 end
 
+def save
+  
+end
+
 end 
 
